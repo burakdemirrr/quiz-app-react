@@ -10,7 +10,6 @@ const useAxios = ({url}) => {
     const [error,setError]=useState("");
 
     useEffect(()=>{
-
         const axiosData=()=>{
         axios
         .get(url)
